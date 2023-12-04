@@ -5,7 +5,7 @@ The collision detector system is an embedded system used for visually impaired i
 
 ## Devices
 
-### TTGO ESP32
+### TTGO ESP32 (Device #1)
 This microcontroller is the brain of this project. It controls the ultrasonic sensor, output sound to the buzzer, creates a web server to display data, and communicate to an API server.
 
 #### Features:
@@ -21,7 +21,7 @@ This microcontroller is the brain of this project. It controls the ultrasonic se
 - **Collision History** : The user to see the number of collisions since the usage of the device
 - **Collision Data Analytics**: Displays newest analysis from data in a database such as location of last collision, average time between collision, user's data, total number of collisions, etc.
 
-## API server (Flask)
+## API server (Flask) (Device #2)
 An API server was built using Flask to store collision data to a database (MySql) and retrieve data from the database to the web page for statistical analytics
 
 ### Features:
