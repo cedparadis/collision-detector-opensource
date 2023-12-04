@@ -40,9 +40,9 @@ cursor.execute('''
 db.commit()
 
 def send_email_notification():
-    sender_email = "cedparadis99@gmail.com"
-    receiver_email = "cedparadis99@gmail.com"
-    password = "faxf tfna tbae kyop"
+    sender_email = "sender@mail"
+    receiver_email = "receiver@mail"
+    password = "your_password"
 
     message = MIMEMultipart()
     message['From'] = sender_email
